@@ -1,2 +1,3 @@
 # stephens-art-website
-Website created for showcasing Stephen Niblocks art projects
+TheOdinProject -  HTML/CSS Landing page/website project
+Will be showcasing various art projects done by Stephen Niblock on this project
