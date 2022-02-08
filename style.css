@@ -1,0 +1,49 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.homepage-header-section {
+    background-color: #1f2937;
+    background-size: cover;
+}
+
+.homepage-upperheader {
+    display: flex;
+}
+
+.homepage-logo {
+    font-size: 24px;
+    display: flex;
+    font-weight: bold;
+    color: #f9faf8;
+    margin-left: 200px;
+    margin-top: 16px;
+
+}
+
+.homepage-links {
+    display: flex;
+    font-size: 18px;
+    gap: 20px;
+    list-style: none;
+    color: #f9faf8;
+    justify-content: flex-end;
+}
+
+a:link {
+    text-decoration: none!important;
+    color: #f9faf8;
+}
+
+a.link:visited {
+    color: #f9faf8;
+    text-decoration: none!important;
+}
+
+a.link:hover {
+    text-decoration: underline;
+}
+.header-image img {
+    max-height: 30%;
+    max-width: 30%;
+}
