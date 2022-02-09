@@ -2,24 +2,23 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* UPPER HEADER */
+
 .homepage-upperheader {
     display: flex;
-    max-height: 100px;
-    height: 50px;
+    min-height: 40px;
     align-items: center;
-    justify-content: space-between;
-    padding: 25px;
+    justify-content: space-around;
     background-color: #1F2937;
-    
+    flex-wrap: wrap;
 }
 
 .homepage-logo {
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 26px;
+    font-weight: 900;
     color: #f9faf8;
     align-items: center;
-    justify-content: flex-start;
-    padding: 10px;
+    padding: 0;
 }
 
 .homepage-links {
@@ -29,16 +28,82 @@ body {
 .homepage-nav {
     display: flex;
     font-size: 18px;
+    font-weight: 550;
     color: #e5e7eb;
     list-style: none;
-    gap: 20px;
+    gap: 4em;
 }
 
 a:link, a:visited {
-    color: #f9faf8;
+    color: #e5e7eb;
     text-decoration: none;
 }
 
 a:hover {
     color: #f1e3e4;
+    text-decoration: underline;
+}
+
+/* MANTRA / PICTURE */
+
+.homepage-lowerheader {
+    display: flex;
+    flex-flow: wrap;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0;
+    min-height: 400px;
+}
+
+.left-lowerheader {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 1.5em;
+    align-content: space-evenly;
+    justify-content: center;
+    padding: 0px;
+}
+
+.newsletter-title {
+    max-height: 120px;
+    font-size: 48px;
+    padding: 0;
+    color: #f9faf8;
+}
+
+.newsletter-description {
+    max-width: 400px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.right-lowerheader {
+    display: flex;
+    align-content: center;
+    padding: 0;
+}
+
+.sucscribe-button {
+    display: flex;
+}
+
+.subscribe-button .newsletter-button {
+    font-size: 16px;
+    border-radius: 1em;
+    background-color: #3882f6;
+    color: #f1e3e4;
+    border: 0;
+    padding: 10px;
+}
+
+.header-image {
+    display: flex;
+    height: 240px;
+    width: 480px;
+}
+
+.profile picture img {
+    width: auto;
+    min-height: 100%;
 }
