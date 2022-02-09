@@ -2,48 +2,43 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.homepage-header-section {
-    background-color: #1f2937;
-    background-size: cover;
-}
-
 .homepage-upperheader {
     display: flex;
+    max-height: 100px;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    background-color: #1F2937;
+    
 }
 
 .homepage-logo {
     font-size: 24px;
-    display: flex;
     font-weight: bold;
     color: #f9faf8;
-    margin-left: 200px;
-    margin-top: 16px;
-
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
 }
 
 .homepage-links {
     display: flex;
+}
+ 
+.homepage-nav {
+    display: flex;
     font-size: 18px;
-    gap: 20px;
+    color: #e5e7eb;
     list-style: none;
-    color: #f9faf8;
-    justify-content: flex-end;
+    gap: 20px;
 }
 
-a:link {
-    text-decoration: none!important;
+a:link, a:visited {
     color: #f9faf8;
+    text-decoration: none;
 }
 
-a.link:visited {
-    color: #f9faf8;
-    text-decoration: none!important;
-}
-
-a.link:hover {
-    text-decoration: underline;
-}
-.header-image img {
-    max-height: 30%;
-    max-width: 30%;
+a:hover {
+    color: #f1e3e4;
 }
