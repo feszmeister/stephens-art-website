@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -10,36 +11,33 @@ body {
     align-items: center;
     justify-content: space-around;
     background-color: #1F2937;
-    flex-wrap: wrap;
+    flex-flow: wrap;
+    flex-basis: 100%;
 }
 
 .homepage-logo {
-    font-size: 26px;
-    font-weight: 900;
+    font-size: 24px;
+    font-weight: 600;
     color: #f9faf8;
     align-items: center;
     padding: 0;
-}
-
-.homepage-links {
-    display: flex;
 }
  
 .homepage-nav {
     display: flex;
     font-size: 18px;
-    font-weight: 550;
+    font-weight: 300;
     color: #e5e7eb;
     list-style: none;
     gap: 4em;
 }
 
-a:link, a:visited {
+.homepage-nav a:link, a:visited {
     color: #e5e7eb;
     text-decoration: none;
 }
 
-a:hover {
+.homepage-nav a:hover {
     color: #f1e3e4;
     text-decoration: underline;
 }
@@ -54,28 +52,38 @@ a:hover {
     justify-content: space-evenly;
     padding: 0;
     min-height: 400px;
+    flex-basis: 100%;
 }
 
 .left-lowerheader {
     display: flex;
     flex-flow: column wrap;
-    gap: 1.5em;
-    align-content: space-evenly;
-    justify-content: center;
+    gap: .5em;
     padding: 0px;
+    max-width: 480px;
+    min-height: 240px;
+    justify-content: space-around;
 }
 
 .newsletter-title {
-    max-height: 120px;
     font-size: 48px;
-    padding: 0;
+    font-weight: 800;
     color: #f9faf8;
 }
 
 .newsletter-description {
-    max-width: 400px;
     font-size: 18px;
+    font-weight: 300;
     color: #e5e7eb;
+}
+
+.subscribe-button .newsletter-button {
+    font-size: 14px;
+    border-radius: 1em;
+    background-color: #3882f6;
+    color: #f1e3e4;
+    border: 0;
+    padding: 10px;
 }
 
 .right-lowerheader {
@@ -84,26 +92,8 @@ a:hover {
     padding: 0;
 }
 
-.sucscribe-button {
-    display: flex;
-}
-
-.subscribe-button .newsletter-button {
-    font-size: 16px;
-    border-radius: 1em;
-    background-color: #3882f6;
-    color: #f1e3e4;
-    border: 0;
-    padding: 10px;
-}
-
-.header-image {
+.header-image img {
     display: flex;
     height: 240px;
     width: 480px;
-}
-
-.profile picture img {
-    width: auto;
-    min-height: 100%;
 }
